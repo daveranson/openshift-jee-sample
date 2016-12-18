@@ -10,7 +10,7 @@ import javax.faces.bean.SessionScoped;
 @SessionScoped
 public class Info {
 
-    private String name = "Dave";
+    private String name = "Helen";
 
     public String getName() {
         return name;
