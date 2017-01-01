@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en"
       xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+
 >
-<head>
+<h:outputStylesheet library="css" name="style.css"/>
+<h:head>
     <meta charset="UTF-8"/>
     <title>Dave web</title>
-</head>
-<body>
-Merry Christmas #{info.name}!!
-</body>
+
+</h:head>
+<h:body>
+   <p>Merry Christmas #{info.name}!!</p>
+</h:body>
 </html>
